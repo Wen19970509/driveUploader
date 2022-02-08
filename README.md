@@ -8,9 +8,9 @@ node upload.js para1 para2 para3
 ```
 
 - para1 : 輸入 欲上傳檔案之<b>絕對路徑</b>
-- ex : `/Users/username/Desktop/result.csv`
+- ex : `/Users/username/Desktop/file`
 - para2 : 輸入 google Drive 對應資料夾名稱與上傳後檔名
-- ex : `Reports/2022Reports` <br/>
+- ex : `folderName/fileName` <br/>
   前為目標資料夾，後為檔名，如無特殊命名則檔名與原始檔名相同即可 <br/>
   目標資料夾可不用於雲端 Root 層，子層亦可抓取到，但資料夾名稱必須為唯獨，<br/><br/>
   此用法非指定路徑，而是搜尋指定資料夾，故資料夾名稱不可有重複。
